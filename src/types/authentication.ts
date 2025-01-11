@@ -23,5 +23,5 @@ export class SignUp {
   declare password: string;
 
   @IsNumber()
-  declare organization_id: number;
+  declare organizationId: number;
 }
